@@ -1,0 +1,21 @@
+.ConfirmButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+
+.ConfirmButton:hover {
+    background-color: #3e8e41;
+    border: 2px solid #1c1c1c;
+}
+
+.ConfirmButton:active {
+    background-color: #1c1c1c;
+} 

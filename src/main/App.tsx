@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../content/img/logo.svg';
 import './App.css';
+import ConfirmButton from '../components/buttons/ConfirmButton';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
+          <ConfirmButton />
         </p>
         <a
           className="App-link"
